@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.full-body{
+    width: 100%;
+   
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.container{
+
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:50px;
+   
+
+
+}
+
+.container .into-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+    width:450px;
+    margin-bottom: 60px;
+
+}
+
+.container .into-part h1{
+    color:#1877F2;
+    font-size: 5rem;
+    font-weight:bold;
+    margin: 0px;
+}
+
+.container .into-part p{
+    margin: 0px;
+    font-size: 2rem;
+    
+}
+
+.container .login-part{
+
+    width: 450px;
+    display: flex;
+    flex-direction:column;
+
+
+}
+
+.container .login-part form{
+    display: flex;
+    box-shadow: 0px 0px 10px rgb(131, 129, 129);    
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+  
+}
+
+.container .login-part form input[type="email"]{
+    width: 100%;
+    padding:15px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    border:1px solid rgb(206, 203, 203);
+    font-size: 18px;
+}
+
+.container .login-part form input[type="password"]{
+    width: 100%;
+    padding:15px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border:1px solid rgb(206, 203, 203);
+    
+}
+.container .login-part form #line{
+   width: 100%;
+   border-top: 1px solid rgb(214, 205, 205);
+   margin-bottom: 20px;
+}
+.container .login-part form #forgotten-btn{
+    width: 100%;
+    padding:11px;
+    margin-bottom:20px;
+    text-align: center;
+    color:#1877F2;
+}
+
+.container .login-part form #login-btn{
+    width: 100%;
+    padding:11px;
+    margin-bottom:20px;
+    background-color: #1877F2;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container .login-part form #create-btn{
+    padding:11px;
+    width: 200px;
+    margin-bottom:20px;
+    background-color: #1e9437;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .login-part p{
+    text-align: center;
+    margin-top: 20px;
+}
